@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<style media="screen">
+  body{
+    background: #ff4f3e;
+    height: 400px;
+    width: 800px;
+  }
+  .box{
+    width: 900px;
+    height: 380px;
+    background-color: white;
+    margin: 150px 250px 0 250px;
+    border-radius: 20px;
+    float: left;
+  }
+  button{
+    display: block;
+    position: fixed;
+    float: left;
+    margin-left: 720px;
+    margin-top: 290px;
+    background-color:#ff4f3e;
+    height: 60px;
+    width: 150px;
+    display: block;
+    position: fixed;
+    border-radius: 10px;
+    font-family: Cabin;
+    font-size: 20px;
+    color: white;
+  }
+  label{
+    font-size: 35px;
+    display: block;
+    font-family: Cabin;
+    color: #ff4f3e;
+    float: left;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 70px;
+  }
+  #by{
+    font-size: 20px;
+    display: block;
+    position: fixed;
+    font-family: Cabin;
+    color: #ff4f3e;
+    float: right;
+    text-align: right;
+    margin-top: 250px;
+    margin-left: 370px;
+  }
+  ul{
+    position: fixed;
+    float: left;
+  }
+  li{
+    list-style-type: none;
+    float: left;
+  }
+  img{
+    float: left;
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin-top: 270px;
+    margin-left: 30px;
+  }
+  .insta,.face,.twit{
+    margin-left: 30px;
+  }
+</style>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Cabin:700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Quotes</title>
+  </head>
+  <body class="b">
+    <script src="change.js"></script>
+      <div class="box" id="box">
+        <div class="quote">
+          <label id="label">" Change your thoughts and you change your world "</label>
+          <label id="by">- Norman Vincent Paele</label>
+            <ul>
+              <li>  <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwie0qnl56ftAhUs63MBHT9IDzAQFjAAegQIARAD&url=https%3A%2F%2Fwww.instagram.com%2F&usg=AOvVaw1cBeRoOpMhZ3-x5M1sA3Fm" target="_blank"><img class="insta" src="https://img.icons8.com/color/48/000000/instagram-new.png"/></a>
+              </li>
+              <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj7uYfY56ftAhWFgdgFHUfXBboQFjAAegQIARAD&url=https%3A%2F%2Fwww.facebook.com%2F&usg=AOvVaw2q27ov2cpCynr72DmuSqEz" target="_blank"><img class="face" src="https://img.icons8.com/color/48/000000/facebook-new.png"/></a>
+              </li>
+              <li>  <a href="https://twitter.com/intent/tweet?hashtags=quotes&amp;related=freecodecamp&amp;text=%22The%20most%20common%20way%20people%20give%20up%20their%20power%20is%20by%20thinking%20they%20don%E2%80%99t%20have%20any.%22%20Alice%20Walker" target="_blank"><img class="twit" src="https://img.icons8.com/color/48/000000/twitter-squared.png"/></a>
+                </li>
+            </ul>
+        <button type="button" name="button" id="change" onclick="random()" >New quote</button>
+        </div>
+      </div>
+  </body>
+</html>
